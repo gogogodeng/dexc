@@ -20,3 +20,5 @@
 
 vue或者react
 1. 一般在循环的时候（v-for, map）会提示需要加上key,那么绑定key到底有什么好处呢？不绑定又会造成什么影响？
+2. vue中ref的用法
+3. vue中nextTick用法
