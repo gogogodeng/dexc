@@ -1,4 +1,4 @@
-### 前端面试题收集
+### 前端常见问题收集
 1. gulp和webpack是什么？有什么区别？
 2. angular常用指令
 3. angular双向绑定实现原理
@@ -22,3 +22,4 @@ vue或者react
 1. 一般在循环的时候（v-for, map）会提示需要加上key,那么绑定key到底有什么好处呢？不绑定又会造成什么影响？
 2. vue中ref的用法
 3. vue中nextTick用法
+4. vue路由中, 如果路由定义了这么两个,/user/:username/,/user/:username/:id,意思就是可传1个或者2个参数, 但是如果通过/user/:username/可以匹配到正确的组件，如果加上id，就会出现白屏匹配不到的情况，不知道原因是什么
