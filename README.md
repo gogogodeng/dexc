@@ -24,6 +24,8 @@ vue或者react
 2. vue中ref的用法
 3. vue中nextTick用法
 4. vue路由中, 如果路由定义了这么两个,/user/:username/,/user/:username/:id,意思就是可传1个或者2个参数, 但是如果通过/user/:username/可以匹配到正确的组件，如果加上id，就会出现白屏匹配不到的情况，不知道原因是什么, 重新定义个一个路由交换位置就可以了。
-5. vue中，一个弹出层，里面是一个可选的列表，类似于下拉框选项。当我们循环出来的值，作为选择项，设置点击事件的时候，如果单独又定义了一个data，数据类型是对象，绑定到input v-model当中，就会出现一个神奇的现象, 当我点击该选项修改这个data的时候， 列表中循环出来的其他绑定值都会改变。
+5. 对象中的数据给了另一个对象变量，改变一个对象的值，另一个对象也变化！？ 实际在vue中  this.A = this.B,没有进行深层赋值，只是把this.A的地址指向了与this.B相同的地址，所有对于A的修改会影响到B
+解决方法this.A=JSON.parse(JSON.stringify(this.B))
+
 6. vue如何注册全局的js方法或者对象
 7. export default 和 export 区别
