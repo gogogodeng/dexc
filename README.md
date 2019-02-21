@@ -30,3 +30,14 @@ vue或者react
 
 6. vue如何注册全局的js方法或者对象
 7. export default 和 export 区别
+
+uniapp
+1. 不支持标签中属性绑定方法
+2. 不支持过滤器
+3. canvas需要固定写好Id,不支持动态方式
+4. 隐藏tabbar闪烁不流畅
+5. chart图绘制不流畅卡顿，ios错位
+6. textarea ios真机不支持双向绑定
+7. 小程序中不支持this.$store.state获取，必须用mapState获取
+8. 小程序中组件定义了名称，在important时必须跟名称一致，不然无效
+
