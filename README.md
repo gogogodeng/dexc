@@ -32,7 +32,7 @@ vue或者react
 7. export default 和 export 区别
 
 uniapp
-1. 不支持标签中属性绑定方法
+1. 不支持标签中属性直接绑定函数
 2. 不支持过滤器
 3. canvas需要固定写好Id,不支持动态方式
 4. 隐藏tabbar闪烁不流畅
